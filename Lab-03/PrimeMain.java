@@ -35,9 +35,7 @@ public class PrimeMain {
         System.out.print("Enter any number : ");
         p1.number = input.nextLong();
 
-        boolean n = p1.checkPrime();
-
-        if (n == true) {
+        if (p1.checkPrime()) {
             System.out.println(p1.number + " is prime number.");
         }
         else {
